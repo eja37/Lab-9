@@ -38,7 +38,7 @@ console.log(sentence.replace(`good`,`bad`));
 //Q8//
 let houses = [`Gryffindor`, `Hufflepuff`, `Ravenclaw`]
 houses.push("Slytherin");
-console.log(houses)
+console.log(houses);
 houses.pop()
 console.log(houses);
 
@@ -66,13 +66,15 @@ console.log(c.concat(d));
 let phrase = 'Mischief Managed';
 console.log(phrase.trim());
 console.log(phrase.toLowerCase());
-console.log(phrase.concat("-Harry"))
+console.log(phrase.concat("-Harry"));
 
 //Q13//
-let wizards = ['Harry', 'Hermione', 'Ron']
+let wizards = ['Harry', 'Hermione', 'Ron'];
 wizards.push("Luna");
 console.log(wizards.concat("Draco"));
 
 //Q14//
-let message = 'Welcome to Hogwarts School of Witchcraft and Wizardry'
-let a = message.slice(2,3);
+let message = 'Welcome to Hogwarts School of Witchcraft and Wizardry';
+let substring = message.slice(11,19);
+let e = substring.concat(` `,`Castle`)
+console.log(e);

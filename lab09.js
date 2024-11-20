@@ -50,3 +50,29 @@ spells.shift();
 console.log(spells);
 
 //Q10//
+let professors = [`Dumbledore`,'McGonagall', 'Snape', 'Hagrid'];
+let a = professors.slice(1,2);
+let b = professors.slice(2,3);
+console.log(a.concat(b));
+
+
+//Q11//
+let = students = ['Neville', 'Seamus', 'Dean', 'Parvati'];
+let c = students.slice(0,1);
+let d = students.slice(1,2);
+console.log(c.concat(d));
+
+//Q12//
+let phrase = 'Mischief Managed';
+console.log(phrase.trim());
+console.log(phrase.toLowerCase());
+console.log(phrase.concat("-Harry"))
+
+//Q13//
+let wizards = ['Harry', 'Hermione', 'Ron']
+wizards.push("Luna");
+console.log(wizards.concat("Draco"));
+
+//Q14//
+let message = 'Welcome to Hogwarts School of Witchcraft and Wizardry'
+let a = message.slice(2,3);
